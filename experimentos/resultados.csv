@@ -1,0 +1,13 @@
+indicador,base,optimizado,variacion
+placas_llegadas,737,724,-13
+placas_terminadas,382,472,90
+wip_final,355,252,-103
+placas_alta_complejidad,189,182,-7
+cola_ensamblaje_final,25,246,221
+cola_pruebas_final,324,0,-324
+cola_pruebas_media,163.18,0.08,-163.10
+tiempo_medio_sistema_min,120.79,71.53,-49.26
+produccion_por_hora,47.75,59.00,11.25
+utilizacion_operarios_pct,98,99,1
+utilizacion_mesas_pct,99,54,-45
+fallos_mesa,1,1,0

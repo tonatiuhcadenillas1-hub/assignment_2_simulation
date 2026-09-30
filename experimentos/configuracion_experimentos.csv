@@ -1,0 +1,11 @@
+configuracion,Escenario_Base,Escenario_Optimizado
+tipo_experimento,Simulation,Simulation
+escenarioOptimizado,false,true
+habilitarFallas,true,true
+operarios_ensamblaje,3,2
+mesas_pruebas,1,2
+duracion_min,480,480
+generador_aleatorio,Semilla fija,Semilla fija
+semilla,1,1
+eventos_simultaneos,LIFO,LIFO
+replicas,1,1

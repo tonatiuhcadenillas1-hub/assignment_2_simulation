@@ -1,0 +1,3 @@
+recurso,bloque,tipo_anylogic,expresion_capacidad,capacidad_base,capacidad_optimizado,usado_por
+Operarios de ensamblaje,Operarios_Ensamblaje,ResourcePool,escenarioOptimizado ? 2 : 3,3,2,tomarOperario (Seize) / liberarOperario (Release)
+Mesas de pruebas,Mesa_Pruebas,ResourcePool,escenarioOptimizado ? 2 : 1,1,2,Pruebas_Calidad (Service)

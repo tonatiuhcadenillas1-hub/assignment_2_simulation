@@ -1,0 +1,3 @@
+parametro,agente,tipo,valor_por_defecto,descripcion
+escenarioOptimizado,Main,boolean,false,"Selecciona el escenario: false = Base (3 operarios, 1 mesa); true = Optimizado (2 operarios, 2 mesas)"
+habilitarFallas,Main,boolean,true,Activa o desactiva la logica de los eventos de falla y reparacion de la mesa

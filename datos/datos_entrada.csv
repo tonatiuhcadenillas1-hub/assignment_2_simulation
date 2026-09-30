@@ -1,0 +1,8 @@
+elemento,bloque_o_evento,expresion_anylogic,unidad,interpretacion
+Tiempo entre llegadas,llegadaPlacas (Source),exponential(1.5),minutos,"Tasa de 1,5 placas/min (media 0,67 min entre llegadas)"
+Tiempo de ensamblaje,Ensamblaje (Delay),"triangular(1, 2, 3)",minutos,"Minimo 1, moda 2, maximo 3 (media 2 min)"
+Tiempo de prueba,Pruebas_Calidad (Service),"normal(2, 0.5)",minutos,"AnyLogic: sigma = 2, media = 0,5 (ver observaciones)"
+Tipo de placa,llegadaPlacas (On exit),"uniform(0, 1) < 0.25 ? ""Alta"" : ""Baja""",-,25 % de placas de alta complejidad (supuesto)
+Falla de mesa,falloMesaCada8h (Event),Primera ocurrencia 240; recurrencia 480,minutos,Reduce en 1 la capacidad de Mesa_Pruebas
+Fin de reparacion,finReparacionMesa (Event),Primera ocurrencia 255; recurrencia 480,minutos,Restablece la capacidad (reparacion de 15 min)
+Horizonte de simulacion,Experimentos,Stop at specified time = 480,minutos,Un turno de 8 horas
